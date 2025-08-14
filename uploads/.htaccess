@@ -1,0 +1,6 @@
+
+# Disable PHP execution in uploads for safety
+<FilesMatch "\.(php|php\d*|phtml)$">
+  Deny from all
+</FilesMatch>
+Options -Indexes
